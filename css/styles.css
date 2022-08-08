@@ -1,0 +1,229 @@
+:root {
+    --brand-color: #2196f3;
+    --primal-text-color: #000000;
+    --card-tittle-color: #212121;
+    --card-text-color: #757575;
+    --background-color: #f5f4fa; 
+    --order-background-color: #2f303a;
+    --white-color : #ffffff;
+    --address-link-color: rgba(255, 255, 255, 0.6);
+    --order-shadow-color: rgba(0, 0, 0, 0.15);
+    
+}
+body {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--primal-text-color);
+    background-color: var(--white-color);
+}
+
+/* header */
+.header {
+    background-color: var(--white-color)
+}
+.list {
+    list-style: none;
+}
+.logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.logo-first {
+    color: var(--brand-color);
+}
+.logo-second {
+    color: var(--primal-text-color);
+}
+/* site navigation */
+.site-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style: none;
+    color: var(--primal-text-color);
+}
+
+.nav-auth, .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--card-text-color);
+    text-decoration: none;
+    list-style: none;
+}
+.site-nav, .link:hover,
+.link:focus, .link:active {
+    color: var(--brand-color);
+}
+.nav-auth .link:hover,
+.link:focus {
+    color: var(--brand-color);
+}
+.link-act {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+    text-decoration: none;
+}
+/* order section */
+.order-background {
+    background-color: var(--order-background-color);
+}
+.order-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+.button-order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--brand-color);
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px var(--order-shadow-color);
+    border-radius: 4px;
+    border-color: var(--brand-color);
+}
+/* our benefits */
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--card-tittle-color);
+}
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--card-text-color);
+}
+/* button */
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--card-tittle-color);
+    background-color: var(--background-color);
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: var(--background-color);
+}
+.button:hover,
+.button:focus {
+    color: var(--white-color);
+    background-color: var(--brand-color);
+    border-radius: 4px;
+}
+
+/* card */
+.card-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--card-tittle-color);
+}
+.card {
+    background-color: var(--white-color);
+
+}
+.card-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--card-tittle-color);
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--card-text-color);
+}
+
+/* our team */
+.team-section {
+    background-color: var(--background-color);
+}
+.our-team-card {
+    background: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+.our-team-subtittle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--card-tittle-color);
+}
+.our-team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--card-text-color);
+}
+
+/* footer */
+.footer {
+    color: var(--white-color);
+    background-color: var(--order-background-color);
+    text-decoration: none;
+}
+.footer .logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.footer-second-logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+.address {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.address-link {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--address-link-color);
+    text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--brand-color);
+}
