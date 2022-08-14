@@ -64,6 +64,7 @@ body {
 .header {
     border-bottom: 1px solid #ECECEC;
 }
+.header-mail
 .header-content {
     display: flex;
     justify-content: s;
@@ -346,6 +347,9 @@ body {
     color: var(--card-tittle-color);
 }
 .card-text {
+    padding-top: 5px;
+    padding-left: 24px;
+
     font-size: 16px;
     line-height: 1.8;
     color: var(--card-text-color);
